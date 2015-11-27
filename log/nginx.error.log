@@ -1,0 +1,13 @@
+2015/11/27 06:23:22 [error] 11512#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/var/sites/quickstart/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /var/sites/quickstart/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /var/sites/quickstart/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/sites/quickstart/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/sites/quickstart/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /var/sites/quickstart/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(50): Monolog\Logger->error(Object(UnexpectedValueException))
+#4 /var/sites/quickstart/app/Exceptions/Handler.php(33): Illuminate\Foundation\Exceptions\Handler->report(...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/var/sites/quickstart/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /var/sites/quickstart/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /var/sites/quickstart/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/sites/quickstart/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/sites/quickstart/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /var/sites/quickstart/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(50): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErr

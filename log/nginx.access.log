@@ -1,0 +1,6 @@
+192.168.115.1 - - [27/Nov/2015:06:23:22 -0500] "GET / HTTP/1.1" 500 5 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0" "-"
+192.168.115.1 - - [27/Nov/2015:06:38:39 -0500] "GET / HTTP/1.1" 500 25560 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0" "-"
+192.168.115.1 - - [27/Nov/2015:06:38:58 -0500] "GET / HTTP/1.1" 200 414 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0" "-"
+192.168.115.1 - - [27/Nov/2015:06:39:14 -0500] "GET /user/ HTTP/1.1" 404 2634 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0" "-"
+192.168.115.1 - - [27/Nov/2015:06:50:16 -0500] "HEAD / HTTP/1.1" 200 0 "-" "Jakarta Commons-HttpClient/3.1" "-"
+192.168.115.1 - - [27/Nov/2015:06:50:16 -0500] "HEAD / HTTP/1.1" 200 0 "-" "Jakarta-Commons-VFS" "-"
